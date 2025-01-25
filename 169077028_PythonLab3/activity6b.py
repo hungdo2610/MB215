@@ -7,5 +7,5 @@ for i in range(1, 4):
         product = i * j
         # Print the multiplication expression and result
         print(f"{i} x {j} = {product}")
-    # Print a blank line after each table for better readability
+    
     print()

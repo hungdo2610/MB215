@@ -17,7 +17,7 @@ print(f"Is it sunny OR the weekend? {either_condition}")
 not_sunny = not is_sunny
 print(f"Is it NOT sunny? {not_sunny}")
 
-# Step 3: Use a Boolean variable in a conditional statement
+
 # Conditional statement with logical operation
 if is_sunny and not is_weekend:
     print("It's sunny but not the weekend. Time to enjoy some fresh air!")
