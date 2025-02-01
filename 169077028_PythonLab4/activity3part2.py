@@ -11,7 +11,7 @@ def main():
     filename = input("Enter the filename to append from: ")
     read_from_file(filename)
 
-write_to_file('sample.txt', 'Hello, World!\n')
+
 
 if __name__ == "__main__": # Call main() function if script is run directly
     main()
