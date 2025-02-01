@@ -1,8 +1,8 @@
 import traceback
-def read_from_file(filename):
+def read_from_file(filename, data):
     try:
         with open(filename, 'r') as file:
-            file.write(data)
+            file.read(data)
     except Exception as e:
         print(f"An error occurred while writing to the file: {filename}")
         traceback.print_exc()
